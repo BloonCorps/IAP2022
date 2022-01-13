@@ -8,7 +8,7 @@ import simtk.openmm.app.topology as topology
 import simtk.openmm.app.element as element
 import math
 from collections import deque, OrderedDict, defaultdict, namedtuple
-import dgmp.utils.functional as functional
+import iap2022.utils.functional as functional
 
 class CoordinateTransformer():
     """ A class used for transforming internal coordinates into 

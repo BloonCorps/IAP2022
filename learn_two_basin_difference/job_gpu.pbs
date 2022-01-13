@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=lfep
+##SBATCH --job-name=lbar
+#SBATCH --time=12:00:00
+#SBATCH --partition=sched_mit_binz_gpu
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --open-mode=truncate
+
+python learn_different_realNVP_LFEP.py
+#python learn_different_realNVP_LBAR.py

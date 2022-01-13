@@ -1,3 +1,3 @@
-from dgmp.utils.coordinate_transformer import CoordinateTransformer
-from dgmp.utils.coordinate_transformer import InternalCoordinate, InternalCoordinateAndOrientation
-from dgmp.utils.functional import get_bonded_atoms
+from iap2022.utils.coordinate_transformer import CoordinateTransformer
+from iap2022.utils.coordinate_transformer import InternalCoordinate, InternalCoordinateAndOrientation
+from iap2022.utils.functional import get_bonded_atoms

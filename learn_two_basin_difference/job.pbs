@@ -1,0 +1,14 @@
+#!/bin/bash
+
+##SBATCH --job-name=lfep
+#SBATCH --job-name=lbar
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH --partition=sched_mit_binz
+#SBATCH --exclude=node[250-289]
+#SBATCH --time=12:00:00
+#SBATCH --mem-per-cpu=4G
+#SBATCH --export=ALL
+
+#python learn_different_realNVP_LFEP.py
+python learn_different_realNVP_LBAR.py
